@@ -59,3 +59,12 @@ a {
     
 }
 
+/* estilo do menu de navegação */
+
+nav, ul{
+    border-radius: 40;
+}
+
+li{
+
+}

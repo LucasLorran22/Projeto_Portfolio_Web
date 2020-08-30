@@ -8,15 +8,22 @@ nav#menu ul{
     list-style-type: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
+    top: -10px;
     left: 15px;
 }
 
 nav#menu li{
     display: inline-block;
     font-weight: bold;
-    background-color: #505050;
+    background-color: #353434;
+    border-radius: 20px;
     padding: 10px;
+    transition: background-color 0.5s;
+    box-shadow: 0px 0px 10px #999999;
+}
+
+nav#menu li:hover{
+    background-color: #63599b;
 }
 
 nav#menu a{
@@ -26,11 +33,15 @@ nav#menu a{
 
 /************************************/
 
+div#interface{
+    width: 900px;
+    margin: 50px auto 0px 30px;
+}
+
 body{
     background: #f7f7f7;
     font-family: Verdana;
     max-width: 900px;
-    margin: auto;
 }
 
 
@@ -38,6 +49,7 @@ body{
     border-radius: 100px;
     border: 2px solid black;
     margin-bottom: 30px;
+    
 }
 
 
@@ -60,7 +72,7 @@ body{
 .post {
     background: white;
     padding: 15px;
-    border: 3px solid #505050;
+    border: 3px solid #353434;
     margin-bottom: 15px;
     border-radius: 25px;
 }
@@ -69,4 +81,12 @@ body{
     margin: 0;
     margin-bottom: 15px;
     text-align: center
+}
+
+/* Imagens das redes sociais */
+
+.social_img{
+    border-radius: 100px;
+    border: 2px solid black;
+    margin-bottom: 30px;
 }

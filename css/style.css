@@ -1,7 +1,7 @@
-.lista_menu{
+/*.lista_menu{
     list-style-type: none;
     font-weight: bold;
-}
+} */
 
 body{
     background: #f7f7f7;
@@ -53,18 +53,19 @@ a {
     text-decoration: none;
 }
 
-.lista_contato{
-    list-style-type: none;
-    padding-left: 30px;
-    
-}
-
 /* estilo do menu de navegação */
 
-nav, ul{
-    border-radius: 40;
+nav#menu ul{
+    list-style-type: none;
+    text-transform: uppercase;
 }
 
-li{
+nav#menu li{
+    display: inline-block;
+    font-weight: bold;
+    background-color: #505050;
+}
 
+nav#menu a{
+    color: white;
 }

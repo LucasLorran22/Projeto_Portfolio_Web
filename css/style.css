@@ -1,4 +1,5 @@
 a {
+    color: white;
     text-decoration: none;
 }
 
@@ -9,6 +10,7 @@ nav#menu {
 }
 
 nav#menu ul{
+    /*background-color: #1b1b1b; Inserido para teste*/
     list-style-type: none;
     text-transform: uppercase;
     position: absolute;
@@ -100,7 +102,8 @@ body{
 /* Página de projetos */
 
 .botaovisualizar{
-    background-color: #63599b;
+    background-color: #353434;
+    text-transform: uppercase;
     color: white;
     font-weight: bold;
     padding: 1px 0 1px 0;

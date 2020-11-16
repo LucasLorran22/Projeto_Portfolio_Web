@@ -9,9 +9,9 @@
     --branco: white;
 }
 
-a {
-    color: var(--branco);
+a{
     text-decoration: none;
+    color: black;
 }
 
 /* estilo do menu de navegação */
@@ -127,4 +127,8 @@ body{
     border: 3px solid var(--preto);
     margin-bottom: 15px;
     border-radius: 25px;
+}
+
+.post_projetos a{
+    color: var(--branco);
 }

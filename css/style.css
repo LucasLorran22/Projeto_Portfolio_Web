@@ -1,5 +1,16 @@
+*{
+    padding: 0;
+}
+
+/* Variáveis das cores*/
+:root{
+    --preto: black;
+    --roxo: #63599b;
+    --branco: white;
+}
+
 a {
-    color: white;
+    color: var(--branco);
     text-decoration: none;
 }
 
@@ -21,7 +32,7 @@ nav#menu ul{
 nav#menu li{
     display: inline-block;
     font-weight: bold;
-    background-color: #353434;
+    background-color: var(--preto);
     border-radius: 20px;
     padding: 10px;
     transition: background-color 0.5s;
@@ -29,11 +40,11 @@ nav#menu li{
 }
 
 nav#menu li:hover{
-    background-color: #63599b;
+    background-color: var(--roxo);
 }
 
 nav#menu a{
-    color: white;
+    color: var(--branco);
     text-decoration: none;
 }
 
@@ -54,14 +65,14 @@ body{
 
 .post_img{
     border-radius: 100px;
-    border: 2px solid black;
+    border: 2px solid var(--preto);
     margin-bottom: 30px;
     
 }
 
 
 #titulo, .subtitulo, .post_titulo{
-    color: black;
+    color: var(--preto);
 }
 
 #titulo{
@@ -77,9 +88,9 @@ body{
 }
 
 .post {
-    background: white;
+    background: var(--branco);
     padding: 15px;
-    border: 3px solid #353434;
+    border: 3px solid var(--preto);
     margin-bottom: 15px;
     border-radius: 25px;
 }
@@ -102,18 +113,18 @@ body{
 /* Página de projetos */
 
 .botaovisualizar{
-    background-color: #353434;
+    background-color: var(--preto);
     text-transform: uppercase;
-    color: white;
+    color: var(--branco);
     font-weight: bold;
     padding: 1px 0 1px 0;
     border-radius: 8px
 }
 
 .post_projetos{
-    background: white;
+    background: var(--branco);
     padding: 15px;
-    border: 3px solid #353434;
+    border: 3px solid var(--preto);
     margin-bottom: 15px;
     border-radius: 25px;
 }

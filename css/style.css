@@ -87,7 +87,7 @@ body{
 }
 
 .titulo{
-    margin-top: -20px;
+    margin-top: -30px;
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -143,4 +143,17 @@ body{
 
 .post_projetos a{
     color: var(--branco);
+}
+
+
+/*Rodape*/
+
+footer{
+    background-color: var(--preto);
+    padding: 2%;
+}
+
+footer p{
+    color: var(--branco);
+    font-weight: bold;
 }

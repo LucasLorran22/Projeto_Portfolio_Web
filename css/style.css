@@ -1,5 +1,8 @@
+/*Reset do CSS*/
 *{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* Variáveis das cores*/
@@ -14,38 +17,46 @@ a{
     color: black;
 }
 
-/* estilo do menu de navegação */
+/************ estilo do menu de navegação ]***********/
 
-nav#menu {
+.menu p{
+    color: var(--branco)
+}
+
+header nav{
+    background: white;
+    background-color: var(--preto);
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+
+.menu {
     display: block;
 }
 
-nav#menu ul{
-    /*background-color: #1b1b1b; Inserido para teste*/
+.menu ul{
+    background-color: var(--preto);
     list-style-type: none;
     text-transform: uppercase;
     position: absolute;
-    top: -11px;
-    left: 15px;
+    top: 0px;
+    padding: 8px;
 }
 
-nav#menu li{
-    display: inline-block;
-    font-weight: bold;
-    background-color: var(--preto);
-    border-radius: 20px;
-    padding: 10px;
-    transition: background-color 0.5s;
-    box-shadow: 0px 0px 10px #999999;
+.menu li{
+
 }
 
-nav#menu li:hover{
+.menu a:hover{
     background-color: var(--roxo);
-}
-
-nav#menu a{
-    color: var(--branco);
-    text-decoration: none;
 }
 
 /************************************/
@@ -59,7 +70,7 @@ div#interface{
 body{
     background: #f7f7f7;
     font-family: Verdana;
-    max-width: 900px;
+
 }
 
 
@@ -71,11 +82,12 @@ body{
 }
 
 
-#titulo, .subtitulo, .post_titulo{
+.titulo, .subtitulo, .post_titulo{
     color: var(--preto);
 }
 
-#titulo{
+.titulo{
+    margin-top: -20px;
     font-size: 40px;
     text-transform: uppercase;
 }

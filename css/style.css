@@ -149,8 +149,10 @@ body{
 /*Rodape*/
 
 footer{
+    margin-bottom: -10px;
     background-color: var(--preto);
     padding: 2%;
+
 }
 
 footer p{

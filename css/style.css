@@ -1,8 +1,12 @@
+/* Importando fontes de texto da GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
 /************ Reset do CSS ***********/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: ;
 }
 
 /************ Variáveis das cores ***********/
@@ -13,17 +17,17 @@
 }
 
 /************ estilo do menu de navegação ***********/
-
-.menu {
+.cabecalho{
     background-color: var(--preto);
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.menu p{
-    color: var(--branco)
+.cabecalho-imagem{
 }
 
-.menu a{
+.cabecalho-menu-item{
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -36,6 +40,62 @@
 
 .menu a:hover{
     background-color: var(--roxo);
+}
+
+/******************SECTION SOBRE MIM ******************/
+
+#sobremim{
+    background-color: aqua;
+}
+
+
+/******************SECTION PROJETOS ******************/
+
+#projetos{
+    background-color: yellowgreen;
+}
+
+
+/******************SECTION CERTIFICACOES ******************/
+
+#certificacoes{
+    background-color: palevioletred;
+}
+
+/******************SECTION PARCEIROS ******************/
+
+#parceiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange;
+    padding: 25px 0 25px 0;
+}
+
+.parceiros-texto{
+    font-size: 25px;
+    font-family: 'Sarala', sans-serif;
+    color: var(--preto);
+    padding: 0 0 20px 0;
+}
+
+.parceiros-imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.parceiros-imagens-logo{
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+/******************SECTION CONTATO ******************/
+
+#contato{
+    background-color: green;
 }
 
 /************************************/

@@ -41,7 +41,7 @@
     background-color: var(--roxo);
 }
 
-.cabecalho-menu-item:houver{
+.cabecalho-menu-item:hover{
     border-bottom-style: solid;
     border-bottom-color: var(--roxo);
 }

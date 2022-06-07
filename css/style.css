@@ -41,6 +41,11 @@
     background-color: var(--roxo);
 }
 
+.cabecalho-menu-item:houver{
+    border-bottom-style: solid;
+    border-bottom-color: var(--roxo);
+}
+
 /******************SECTION SOBRE MIM ******************/
 
 #sobremim{

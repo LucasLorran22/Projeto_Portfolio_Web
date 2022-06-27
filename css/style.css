@@ -17,7 +17,7 @@
 
 /************ estilo do menu de navegação ***********/
 .cabecalho{
-    background-color: var(--preto);
+    background-color: ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,9 +26,13 @@
 .cabecalho-imagem{
 }
 
+.cabecalho-menu{
+    
+}
+
 .cabecalho-menu-item{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 14px;
 
     padding: 20px;
@@ -37,13 +41,22 @@
     transition: background-color 0.5s;
 }
 
-.menu a:hover{
-    background-color: var(--roxo);
+.cabecalho-botao-contato{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(155, 6, 192);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.cabecalho-menu-item:hover{
 }
 
 .cabecalho-menu-item:hover{
     border-bottom-style: solid;
-    border-bottom-color: var(--roxo);
+    border-bottom-color: rgb(155, 6, 192);
 }
 
 /******************SECTION SOBRE MIM ******************/

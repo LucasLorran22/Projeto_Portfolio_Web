@@ -11,7 +11,7 @@
 body{
     font-size: 100%;
     /*background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); */
-    background: linear-gradient(68.15deg, #25232f 16.62%, #53528e 85.61%);
+    background: linear-gradient(68.15deg, #35354e /*#25232f*/ 16.62%, #53528e 85.61%);
 }
 
 .cabecalho{
@@ -77,14 +77,14 @@ body{
 }
 
 .conteudo-principal-escrito-botao{
-    background-color: #ECD6C4;
+    background-color: #5e5da1;/* #ECD6C4; */
     width: 180px;
     height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: 'S arala', sans-serif; 
-    color: #2F2325;
+    color: #FFF2E7;
     font-weight: 400; /*Peso da fonte, mais negrito*/
     font-size: 24px;
 }
@@ -98,6 +98,7 @@ body{
     margin-bottom: 50px;
     border: 5px solid var(--preto);
     height: 350px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .conteudo-secundario{

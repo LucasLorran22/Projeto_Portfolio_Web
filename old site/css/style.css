@@ -1,0 +1,234 @@
+/* Importando fontes de texto da GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+/************ Reset do CSS ***********/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/************ Variáveis das cores ***********/
+:root{
+    --preto: black;
+    --roxo: #63599b;
+    --branco: white;
+}
+
+/************ estilo do menu de navegação ***********/
+.cabecalho{
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho-imagem{
+}
+
+.cabecalho-menu{
+    
+}
+
+.cabecalho-menu-item{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.cabecalho-botao-contato{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(155, 6, 192);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.cabecalho-menu-item:hover{
+}
+
+.cabecalho-menu-item:hover{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(155, 6, 192);
+}
+
+/******************SECTION SOBRE MIM ******************/
+
+#sobremim{
+    background-color: aqua;
+}
+
+
+/******************SECTION PROJETOS ******************/
+
+#projetos{
+    background-color: yellowgreen;
+}
+
+
+/******************SECTION CERTIFICACOES ******************/
+
+#certificacoes{
+    background-color: palevioletred;
+}
+
+/******************SECTION PARCEIROS ******************/
+
+#parceiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 25px 0 25px 0;
+}
+
+.parceiros-texto{
+    font-size: 25px;
+    font-family: 'Sarala', sans-serif;
+    color: var(--preto);
+    padding: 0 0 20px 0;
+}
+
+.parceiros-imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.parceiros-imagens-logo{
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+/******************SECTION CONTATO ******************/
+
+#contato{
+    background-color: green;
+}
+
+/************************************/
+
+body{
+    background: #f7f7f7;
+    font-family: Verdana;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#interface{  
+    margin: 30px auto auto 30px;
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.grupo{
+    margin-right: 10px;
+}
+
+/************************************/
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo h1{
+    margin-left: 7px;
+    color: var(--preto);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.descricao{
+    margin-top: 20px;
+    width: 450px;
+    border:  3px solid var(--preto);
+    border-radius: 25px;
+}
+
+.local_da_imagem{
+
+    text-align: center;
+    width: 450px;
+}
+
+
+
+.post_img{
+    border-radius: 100px;
+    border: 2px solid var(--preto);
+    margin-bottom: 30px;
+}
+
+.post_conteudo{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Imagens das redes sociais */
+
+.social_img{
+    border-radius: 100px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+
+/* Página de projetos */
+
+.botaovisualizar{
+    background-color: var(--preto);
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: bold;
+    padding: 1px 0 1px 0;
+    border-radius: 8px
+}
+
+.post_projetos{
+    width: 500px;
+    background: var(--branco);
+    padding: 15px;
+    border: 3px solid var(--preto);
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.post_projetos a{
+    color: var(--branco);
+}
+
+
+/************  Rodape ***********/
+
+footer{
+    margin: auto;
+    background-color: var(--preto);
+    padding: 10px;
+
+}
+
+footer p{
+    text-align: center;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 12px
+}

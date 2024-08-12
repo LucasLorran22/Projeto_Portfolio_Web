@@ -1,174 +1,60 @@
-/* Importando fontes de texto da GOOGLE */
-@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap'); /*Importando fontes de texto do Google*/
 
-/************ Reset do CSS ***********/
+/*RESET CSS*/
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-/************ Variáveis das cores ***********/
-:root{
-    --preto: black;
-    --roxo: #63599b;
-    --branco: white;
+body{
+    font-size: 100%;
+    /*background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); */
+    background: linear-gradient(68.15deg, #25232f 16.62%, #53528e 85.61%);
 }
 
-/************ estilo do menu de navegação ***********/
 .cabecalho{
-    background-color: ;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    padding: 24px;
 }
 
 .cabecalho-imagem{
+    height: 72px;
 }
 
 .cabecalho-menu{
-    
+    display: flex;
+    gap: 32px;
 }
 
 .cabecalho-menu-item{
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-
-    padding: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.5s;
+    font-family: 'Sarala', sans-serif; 
+    color: #FFF2E7;
+    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-size: 18px;
 }
 
-.cabecalho-botao-contato{
-    color: white;
-    font-size: 14px;
-    background-color: rgb(155, 6, 192);
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-transform: uppercase;
-    transition: background-color 0.5s;
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
 }
 
-.cabecalho-menu-item:hover{
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.cabecalho-menu-item:hover{
-    border-bottom-style: solid;
-    border-bottom-color: rgb(155, 6, 192);
-}
-
-/******************SECTION SOBRE MIM ******************/
-
-#sobremim{
-    background-color: aqua;
-}
-
-
-/******************SECTION PROJETOS ******************/
-
-#projetos{
-    background-color: yellowgreen;
-}
-
-
-/******************SECTION CERTIFICACOES ******************/
-
-#certificacoes{
-    background-color: palevioletred;
-}
-
-/******************SECTION PARCEIROS ******************/
-
-#parceiros{
+.conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: var(--branco);
-    padding: 25px 0 25px 0;
+    gap: 32px;
 }
-
-.parceiros-texto{
-    font-size: 25px;
-    font-family: 'Sarala', sans-serif;
-    color: var(--preto);
-    padding: 0 0 20px 0;
-}
-
-.parceiros-imagens{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 25px;
-}
-
-.parceiros-imagens-logo{
-    border-radius: 25px;
-    width: 200px;
-    height: 200px;
-}
-
-/******************SECTION CONTATO ******************/
-
-#contato{
-    background-color: green;
-}
-
-/************************************/
-
-body{
-    background: #f7f7f7;
-    font-family: Verdana;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-#interface{  
-    margin: 30px auto auto 30px;
-}
-
-.post{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
-}
-
-.grupo{
-    margin-right: 10px;
-}
-
-/************************************/
-
-.titulo{
-    display: flex;
-    flex-direction: row;
-}
-
-.titulo h1{
-    margin-left: 7px;
-    color: var(--preto);
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-.descricao{
-    margin-top: 20px;
-    width: 450px;
-    border:  3px solid var(--preto);
-    border-radius: 25px;
-}
-
-.local_da_imagem{
-
-    text-align: center;
-    width: 450px;
-}
-
-
 
 .post_img{
     border-radius: 100px;
@@ -176,59 +62,87 @@ a{
     margin-bottom: 30px;
 }
 
-.post_conteudo{
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    text-align: center;
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-size: 64px;
 }
 
-/* Imagens das redes sociais */
-
-.social_img{
-    border-radius: 100px;
-    border: 2px solid black;
-    margin-bottom: 30px;
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'S arala', sans-serif; 
+    color: #ECD6C4;
+    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-size: 24px;
 }
 
-
-/* Página de projetos */
-
-.botaovisualizar{
-    background-color: var(--preto);
-    text-transform: uppercase;
-    color: var(--branco);
-    font-weight: bold;
-    padding: 1px 0 1px 0;
-    border-radius: 8px
+.conteudo-principal-escrito-botao{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'S arala', sans-serif; 
+    color: #2F2325;
+    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-size: 24px;
 }
 
-.post_projetos{
-    width: 500px;
-    background: var(--branco);
-    padding: 15px;
-    border: 3px solid var(--preto);
-    margin-bottom: 15px;
-    border-radius: 25px;
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
 }
 
-.post_projetos a{
-    color: var(--branco);
+.conteudo-principal-imagem{
+    border-radius: 200px;
+    margin-bottom: 50px;
+    border: 5px solid var(--preto);
+    height: 350px;
 }
 
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
 
-/************  Rodape ***********/
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-size: 24px;
+    margin-bottom: 16px;
+}
 
-footer{
-    margin: auto;
-    background-color: var(--preto);
-    padding: 10px;
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif; 
+    color: #ECD6C4;
+    font-weight: 300; /*Peso da fonte, mais negrito*/
+    font-size: 18px; 
+}
+
+.rodape{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem{
+    height: 48px;
 
 }
 
-footer p{
-    text-align: center;
-    color: var(--branco);
-    font-weight: bold;
-    font-size: 12px
+.rodape-texto{
+    padding-top: 30px;
+    font-family: 'Sarala', sans-serif; 
+    color: #ECD6C4;
+    font-weight: 300; /*Peso da fonte, mais negrito*/
+    font-size: 12px; 
 }

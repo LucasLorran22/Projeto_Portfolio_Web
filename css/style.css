@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap'); /*Importando fontes de texto do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-/*RESET CSS*/
-*{
+/* RESET CSS */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-body{
+body {
     font-size: 100%;
-    /*background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); */
-    background: linear-gradient(68.15deg, #35354e /*#25232f*/ 16.62%, #53528e 85.61%);
+    background: linear-gradient(68.15deg, #35354e 16.62%, #53528e 85.61%);
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,78 +21,82 @@ body{
     padding: 24px;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     height: 72px;
 }
 
-.cabecalho-menu{
+.cabecalho-menu {
     display: flex;
     gap: 32px;
 }
 
-.cabecalho-menu-item{
-    font-family: 'Sarala', sans-serif; 
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
-    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-weight: 400;
     font-size: 18px;
+    transition: color 0.3s;
 }
 
-.conteudo{
+.cabecalho-menu-item:hover {
+    color: #ECD6C4; /* Cor ao passar o mouse */
+}
+
+.conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;
+    padding: 20px; /* Adicionado para espaçamento interno */
 }
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 50px; /* Aumentar espaço inferior */
 }
 
-.conteudo-principal-escrito{
+.conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.post_img{
-    border-radius: 100px;
-    border: 2px solid var(--preto);
-    margin-bottom: 30px;
-}
-
-.conteudo-principal-escrito-titulo{
+.conteudo-principal-escrito-titulo {
     font-family: 'Righteous', cursive;
     color: #FFF2E7;
-    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-weight: 400;
     font-size: 64px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.conteudo-principal-escrito-subtitulo{
-    font-family: 'S arala', sans-serif; 
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
     color: #ECD6C4;
-    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-weight: 400;
     font-size: 24px;
 }
 
-.conteudo-principal-escrito-botao{
-    background-color: #5e5da1;/* #ECD6C4; */
+.conteudo-principal-escrito-botao {
+    background-color: #5e5da1;
     width: 180px;
     height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'S arala', sans-serif; 
+    font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
-    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-weight: 400;
     font-size: 24px;
+    transition: background-color 0.3s, transform 0.3s; /* Adicionado */
 }
 
-.conteudo-principal-escrito-botao:hover{
-    background-color: rgba(236, 214, 196, 0.53);
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.8);
+    transform: translateY(-3px); /* Efeito ao passar o mouse */
 }
 
-.conteudo-principal-imagem{
+.conteudo-principal-imagem {
     border-radius: 200px;
     margin-bottom: 50px;
     border: 5px solid var(--preto);
@@ -101,49 +104,118 @@ body{
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-.conteudo-secundario{
+.conteudo-secundario {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
     margin-top: 48px;
+    padding: 20px; /* Adicionado para espaçamento interno */
+    background: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
-.conteudo-secundario-titulo{
+.conteudo-secundario-titulo {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     color: #FFF2E7;
-    font-weight: 400; /*Peso da fonte, mais negrito*/
+    font-weight: 400;
     font-size: 24px;
     margin-bottom: 16px;
 }
 
-.conteudo-secundario-paragrafo{
-    font-family: 'Sarala', sans-serif; 
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
     color: #ECD6C4;
-    font-weight: 300; /*Peso da fonte, mais negrito*/
-    font-size: 18px; 
+    font-weight: 300;
+    font-size: 18px;
 }
 
-.rodape{
+.rodape {
     padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     border-top: 0.4px solid #FFF2E7;
 }
 
-.rodape-imagem{
-    height: 48px;
-
+.rodape-texto {
+    padding-top: 30px;
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center; /* Centralizar texto */
 }
 
-.rodape-texto{
-    padding-top: 30px;
-    font-family: 'Sarala', sans-serif; 
+
+/* Adicione as seguintes regras ao seu CSS existente */
+
+.conteudo-secundario {
+    opacity: 0; /* Começa invisível */
+    transform: translateY(20px); /* Move para baixo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
+}
+
+.conteudo-secundario.visivel {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Retorna à posição original */
+}
+
+.blog-titulo {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 36px;
+    margin: 48px 0;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0 16px;
+}
+
+.blog-post {
+    background-color: #35354e;
+    border-radius: 10px;
+    padding: 16px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post-imagem {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-post-titulo {
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 24px;
+    margin: 16px 0 8px;
+}
+
+.blog-post-resumo {
     color: #ECD6C4;
-    font-weight: 300; /*Peso da fonte, mais negrito*/
-    font-size: 12px; 
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.blog-post-link {
+    display: inline-block;
+    background-color: #5e5da1;
+    color: #FFF2E7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.blog-post-link:hover {
+    background-color: rgba(236, 214, 196, 0.53);
 }

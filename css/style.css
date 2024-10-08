@@ -10,7 +10,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #35354e 16.62%, #53528e 85.61%);
+    background: linear-gradient(68.15deg, #35354e 16.62%, #1a192b 85.61%);
 }
 
 .cabecalho {
@@ -78,7 +78,7 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
-    background-color: #5e5da1;
+    background-color: #1a1a27;
     width: 180px;
     height: 60px;
     border: none;

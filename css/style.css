@@ -150,19 +150,18 @@ body {
     text-align: center; /* Centralizar texto */
 }
 
-
-/* Adicione as seguintes regras ao seu CSS existente */
-
+/*
 .conteudo-secundario {
-    opacity: 0; /* Começa invisível */
-    transform: translateY(20px); /* Move para baixo */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Transição suave */
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease, transform 0.5s ease; 
 }
 
 .conteudo-secundario.visivel {
-    opacity: 1; /* Torna visível */
-    transform: translateY(0); /* Retorna à posição original */
+    opacity: 1; 
+    transform: translateY(0); 
 }
+*/
 
 .blog-titulo {
     text-align: center;

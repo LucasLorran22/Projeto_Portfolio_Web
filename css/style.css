@@ -88,7 +88,7 @@ body {
     color: #FFF2E7;
     font-weight: 400;
     font-size: 24px;
-    transition: background-color 0.3s, transform 0.3s; /* Adicionado */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -110,15 +110,15 @@ body {
     align-items: center;
     gap: 24px;
     margin-top: 48px;
-    padding: 20px; /* Adicionado para espaçamento interno */
-    background: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.1); 
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
-}
+} 
+
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
+    padding-top: 10px;
     font-family: 'Righteous', cursive;
     color: #FFF2E7;
     font-weight: 400;
@@ -131,6 +131,7 @@ body {
     color: #ECD6C4;
     font-weight: 300;
     font-size: 18px;
+    align-items: center;
 }
 
 .rodape {
@@ -146,7 +147,7 @@ body {
     font-family: 'Sarala', sans-serif;
     color: #ECD6C4;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center; /* Centralizar texto */
 }
 
@@ -190,7 +191,8 @@ body {
 
 .blog-post-imagem {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
 }
 
 .blog-post-titulo {

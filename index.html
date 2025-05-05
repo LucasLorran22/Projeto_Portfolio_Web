@@ -1,50 +1,437 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="https://lucaslorran.com.br/img/logo.png" type="image/x-icon">
-    <title>Lucas Lorran</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            padding: 100px;
-        }
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Lucas Lorran</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-        h1 {
-            font-size: 60px;
-            margin-bottom: 20px;
-        }
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        p {
-            font-size: 24px;
-            margin: 15px 0;
-        }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-            font-weight: bold;
-        }
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        a:hover {
-            text-decoration: underline;
-        }
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-        .emoji {
-            font-size: 80px;
-        }
-    </style>
 </head>
-<body>
 
-    <div class="emoji">😁🚧</div>
-    <h1>Site Under Construction!</h1>
-    <p>Hi, I'm Lucas. It's great to have you here!</p>
-    <p>There will be more information here soon.</a>.</p>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Lucas Lorran</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Início<br></a></li>
+          <li><a href="#about">Sobre</a></li>
+          <!-- <li><a href="#services">Serviços</a></li> -->
+          <!-- <li><a href="#portfolio">Portfólio</a></li> -->
+          <!-- 
+          <li class="dropdown"><a href="#"><span>Mais opções Principal</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Teste A1</a></li>
+              <li class="dropdown"><a href="#"><span>Mais opções Secundário</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Teste 1</a></li>
+                  <li><a href="#">Teste 2</a></li>
+                  <li><a href="#">Teste 3</a></li>
+                  <li><a href="#">Teste 4</a></li>
+                  <li><a href="#">Teste 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Teste A2</a></li>
+              <li><a href="#">Teste A3</a></li>
+              <li><a href="#">Teste A4</a></li>
+            </ul>
+          </li>
+          -->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-img.jpg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Eu sou Lucas Lorran</h2>
+        <p><span class="typed" data-typed-items="Analista de Banco de Dados, Desenvolvedor, Freelancer, Social Media"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/profile-img.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Nome: </strong> <span>Lucas Lorran</span></p>
+                <p><strong>Perfil: </strong> <span>Analista de Banco de Dados</span></p>
+                <p><strong>Email: </strong> <span>lucaslorran2016@gmail.com</span></p>
+                <!-- <p><strong>Linkdin: </strong> <span>(617) 557-0089</span></p> -->
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Habilidades</h5>
+
+              <div class="progress">
+                <span class="skill"><span>SQL</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">30%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="30"></div>
+                </div>
+              </div><!-- End Skills Item -->              
+
+              <div class="progress">
+                <span class="skill"><span>Java</span> <i class="val">10%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>Sobre mim</h4>
+              <p>
+                Sou formado em Análise e Desenvolvimento de Sistemas, <!-- e iniciando os estudos com foco em back-end Java,--> atualmente atuando como Analista de Banco de Dados. 
+              </p>
+              <p>
+                Tenho experiência com front-end, já participei do desenvolvimento de sites e atuo como voluntário na área de mídias da igreja, unindo propósito e tecnologia. 
+              </p>
+              <p>
+                Busco aprimorar continuamente minhas habilidades técnicas, especialmente em Java, banco de dados e desenvolvimento de sistemas, com o objetivo de criar soluções eficientes e úteis para diferentes nichos de mercado.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- 
+    <section id="resume" class="resume section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resumo</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Brandon Johnson</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul>
+                <li>Portland par 127,Orlando, FL</li>
+                <li>(123) 456-7891</li>
+                <li>alice.barkley@example.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Fine Arts &amp; Graphic Design</h4>
+              <h5>2015 - 2016</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section accent-background">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.png" class="testimonial-img" alt="">
+                <h3>Guilherme Parpineli</h3>
+                <h4>Full Stack Developer</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Um profissional fora da curva, busca entender e conhecer toda regra de negócio da empresa mesmo que não seja relacionado totalmente a sua função para conseguir melhor entendido ao todo. Uma pessoa que pode sempre recorrer que será prestativo.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.png" class="testimonial-img" alt="">
+                <h3>Giovanna Dos Santos Leite</h3>
+                <h4>Analista de Negócios e Requisitos</h4>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Excelente profissional, está sempre evoluindo. Trabalhei com ele em duas funções diferentes, na mesma empresa, e ele sempre muito prestativo e com espirito de equipe.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Fale comigo para mais informações, dúvidas ou parcerias.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Localização</h3>
+                  <p>Ribeirão Preto - São Paulo</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-instagram flex-shrink-0"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p><a href="https://www.linkedin.com/in/lucas-lorran-344726131/" target="_blank">lucas-lorran-344726131</a></p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>E-mail</h3>
+                  <p>lucaslorran2016@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+<!-- 
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Seu nome" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Seu e-mail" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form>
+-->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+
+      <!-- 
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div> 
+      -->
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>

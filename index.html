@@ -250,8 +250,8 @@
             <input type="text" name="_honey" style="display:none">
 
 
-            <!-- Campo invisível para evitar spam bots -->
-            <input type="text" name="_honey" style="display:none">
+            <!-- Desabilita captcha do FormSubmit -->
+            <input type="hidden" name="_captcha" value="false">
 
             <div class="col-md-6">
               <input type="text" name="name" class="form-control" placeholder="Seu nome" required="">
@@ -273,7 +273,8 @@
               <div class="loading">Carregando</div>
               <div class="error-message"></div>
               <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
-
+              
+              <div class="g-recaptcha" data-sitekey="6LdizTsrAAAAAIJT23YYNi3yqgzQHq11pSntsuMA"></div>
               <button type="submit">Enviar mensagem</button>
             </div>
 

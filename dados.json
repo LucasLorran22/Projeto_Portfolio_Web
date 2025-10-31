@@ -61,5 +61,23 @@
     "link": "https://loja.orvalho.com/lancamentos/o-caminho-da-obediencia-luciano-subira?srsltid=AfmBOopgtAIK_OrxfGY85q6VAwd6d4BLvTniQJBcQklvPOyKp1Bb3-IN",
     "prioridade": "baixa",
     "imagem": "https://site.orvalho.com/wp-content/uploads/2020/02/banner-produtos-menu-003.jpg"
+  },
+  {
+    "nome": "Livro: Discuta menos, dialogue mais: Como transformar suas próximas conversas",
+    "descricao": "Não importa com quem você esteja falando, Discuta menos, dialogue mais apresenta frases e estratégias que mudarão para sempre a forma como você se comunica.",
+    "preco": 41.90,
+    "categoria": "livros",
+    "link": "https://amzn.to/3JAsHTU",
+    "prioridade": "baixa",
+    "imagem": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1689117-800-800/1114796_3.jpg?v=638774806417830000"
+  },
+  {
+    "nome": "Kindle",
+    "descricao": "Leia a qualquer momento e de qualquer lugar com o Kindle mais leve e compacto. Ajuste a iluminação frontal, ou use o modo escuro para inverter a cor do texto.",
+    "preco": 589.00,
+    "categoria": "eletronicos",
+    "link": "https://www.amazon.com.br/kindle-16gb-preto/dp/B0CP31L73X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2J2OWURKNNAS7&dib=eyJ2IjoiMSJ9.tPc6_ZjVnQ1jfDLVl67wnWcpdhabyjENyx0bOiD95EAokAHeCJc9kgl-hy6eLla4LCkdOeyG2wUj5-rNkjE9P98rc1A6sTk3hd6TyHBhXawyvEczxsmHlek3k-88LlkZxDjCLJtXI--3yXH8-rYrXefrLEh51VEp3T1n60s2rlkyJozc6aa3at1RXbJHP8HUmOZ5_FmVOIhZNlR85CD-adghySlTPqDH_vAEVIJXh6Ex11Ymz8mdQnBy0qoosna55It99n3gdUE4f7I5XC03O_zgBTq_BRuy6z_Juz4vXC0.aS69SCQZUXutT8rpiz0XJShrhxnRK8Nt29ojs0uKrVw&dib_tag=se&keywords=Kindle&qid=1761915518&sprefix=kindle%2Caps%2C193&sr=8-1&ufe=app_do%3Aamzn1.fos.95de73c3-5dda-43a7-bd1f-63af03b14751&th=1",
+    "prioridade": "baixa",
+    "imagem": "https://m.media-amazon.com/images/I/718jJRdvDsL._AC_SX679_.jpg"
   }
 ]
